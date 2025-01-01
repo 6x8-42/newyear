@@ -1,0 +1,77 @@
+header h1 .cursor {
+  speak: none;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.7),0 3px 9px rgba(0,0,0,0.2);
+}
+
+header h1 :before {
+    content: "Bonne année 2025\00a0!";
+}
+
+@keyframes titre {
+    0%{
+        content:""
+    }
+    20%{
+        content:"B"
+    }
+    24%{
+        content:"Bo"
+    }
+    28%{
+        content:"Bon"
+    }
+    32%{
+        content:"Bonn"
+    }
+    36%{
+        content:"Bonne"
+    }
+    40%{
+        content:"Bonne\00a0"
+    }
+    44%{
+        content:"Bonne a"
+    }
+    48%{
+        content:"Bonne an"
+    }
+    52%{
+        content:"Bonne ann"
+    }
+    56%{
+        content:"Bonne anné"
+    }
+    60%{
+        content:"Bonne année"
+    }
+    64%{
+        content:"Bonne année "
+    }
+    67%{
+        content:"Bonne année 2"
+    }
+    70%{
+        content:"Bonne année 20"
+    }
+    73%{
+        content:"Bonne année 202"
+    }
+    76%{
+        content:"Bonne année 2024"
+    }
+    79%{
+        content:"Bonne année 202"
+    }
+    82%{
+        content:"Bonne année 2025"
+    }
+    85%{
+        content:"Bonne année 2025\00a0"
+    }
+    88%{
+        content:"Bonne année 2025\00a0🎉"
+    }
+    100%{
+        content:"Bonne année 2025\00a0🎉"
+    }
+}
