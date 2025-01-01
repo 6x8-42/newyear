@@ -51,7 +51,7 @@
   {%- else -%}
     {%- assign lazyLoad = '' -%}
   {%- endif -%}
-			<div class="grid-item card{% for tag in item.tags %} {{ tag.value }}{% endfor %}" data-date="{{ item.date }}">
+			<div class="grid-item card{% for tag in item.tags %} {{ tag.value }}{% endfor %}" data-date="{{ item.date | date: "%Y-%m-%d" }}">
 	{% if item.image %}
 				<figure aria-labelledby="h2-{{ forloop.index }}" {% if item.description != "" %}aria-describedby="p-{{ forloop.index }}"{% endif %}>
 		{% capture extension %}{{ item.image | slice: -3, 3 }}{% endcapture %}
