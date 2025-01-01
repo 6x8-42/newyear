@@ -5,7 +5,7 @@
 
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ site.description }}">
-    <meta name="robots" content="index,follow">
+    <meta name="robots" content="noindex,nofollow">
     <meta name="author" content="{{ site.author }}">
     <meta itemprop="name" content="{{ site.title }}">
 
@@ -25,9 +25,9 @@
     <link rel="shortcut icon" href="{{ "/images/favicon.png" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
 {% for css_name in page.extra_css %}
-    <link rel="stylesheet" href="{{ css_name | prepend: "/assets/css/" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ css_name | prepend: "/newyear/assets/css/" | prepend: site.baseurl }}">
 {% endfor %}
 
-    <script src="{{ "/assets/js/isotope.pkgd.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/assets/js/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/newyear/assets/js/isotope.pkgd.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/newyear/assets/js/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}"></script>
 </head>
